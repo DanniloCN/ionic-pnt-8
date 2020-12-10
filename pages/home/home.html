@@ -1,11 +1,29 @@
 <ion-header>
 	<ion-navbar>
-		<ion-title>Home</ion-title>
+		<ion-title align='center'>Dicas de Livro de Terror</ion-title>
 	</ion-navbar>
 </ion-header>
-
 <ion-content padding>
-	
-  <button ion-button full (click)="abrirAlerta()">Alerta</button>
-
+	<div align="center"> <img class="img" src="https://i.redd.it/t3z8igv16sw21.png">
+		<h4 class='subtitle'> Alguns livros que não vão te deixar dormir! </h4>
+	</div>
+	<ion-grid>
+		<ion-row>
+			<button class="col" ion-button full (click)="abrirAlerta()">O Vilarejo</button>
+			<button class="col" ion-button full (click)="abrirAlerta()">Belas Adormecidas</button>
+		</ion-row>
+		<ion-row>
+			<button class="col" ion-button full (click)="abrirAlerta()">Suicidas</button>
+			<button class="col" ion-button full (click)="abrirAlerta()">A Essência do Mal</button>
+		</ion-row>
+		<ion-row>
+			<button class="col" ion-button full (click)="abrirAlerta()">O Iluminado</button>
+			<button class="col" ion-button full (click)="abrirAlerta()">It</button>
+		</ion-row>
+	</ion-grid>
 </ion-content>
+<ion-footer>
+	<div align='center'>
+		<h4 class="footer">Bons sonhos...</h4>
+	</div>
+</ion-footer>
