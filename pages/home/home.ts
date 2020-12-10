@@ -1,5 +1,7 @@
 import { Component } from "@angular/core";
 import { NavController, AlertController, ToastController } from "ionic-angular";
+import { Comprar } from "../comprar/comprar";
+import comprarHtml from "../comprar/comprar.html";
 
 @Component({
   selector: "page-home",
